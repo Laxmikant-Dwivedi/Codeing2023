@@ -8,18 +8,18 @@ class Solution
        int mid = 0;
        while(mid<=j)
        {
-           if(a[mid] == 0)            // for zero
+           if(a[mid] == 0)            // for zero element
            {
                swap(a[mid],a[i]);
                mid++;
                i++;
            }
-           else if(a[mid] == 1){     // for one
+           else if(a[mid] == 1){     // for one element
                mid++;
            }
            else
            {
-               swap(a[mid],a[j]);    // for 2
+               swap(a[mid],a[j]);    // for two element
                j--;
            }
        }
