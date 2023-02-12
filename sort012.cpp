@@ -19,7 +19,11 @@ class Solution
            }
            else
            {
+<<<<<<< HEAD
                swap(a[mid],a[j]);    // for two element
+=======
+               swap(a[mid],a[j]);    // for 2 element
+>>>>>>> d3f5de2fd2d7af9b751ca5061984d1eacf8364b0
                j--;
            }
        }
