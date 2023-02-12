@@ -1,4 +1,4 @@
-void rearrange(int arr[],int n)
+void rearrange(int a[],int n)
 {
     int low = 0;
     int high = n-1;
@@ -12,7 +12,7 @@ void rearrange(int arr[],int n)
             high --;
         }
         else{
-            swap(a[low],a[mid]);
+            swap(a[low],a[high]);
         }
     }
 }
