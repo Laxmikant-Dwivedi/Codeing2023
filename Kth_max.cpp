@@ -19,6 +19,8 @@ class Solution{
     }
 }
 
+// jis question me v kth and smallest or largest pucha hai usme heap lagega
+
 
 
 
