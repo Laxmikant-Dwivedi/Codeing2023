@@ -1,7 +1,8 @@
 bool subArrayExists(int arr[], int n){
     unordered_set<int> s;
+    int prefixsum = 0;
     for(int i=0; i<n; i++){
-        int prefixsum = 0;
+        
         arr[i] += prefixsum;
         if(arr[i] == 0)
             return 1;
