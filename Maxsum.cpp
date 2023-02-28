@@ -11,5 +11,6 @@ void Maxproductsum(int arr[], int n)
         mi = min(arr[i], mi*arr[i]);
         ans = max(ans,ma);
     }
+    
     return ans;
 }
