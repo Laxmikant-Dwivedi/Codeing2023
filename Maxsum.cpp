@@ -7,8 +7,8 @@ void Maxproductsum(int arr[], int n)
     {
         if(arr[i]<0)
             swap(ma,mi);
-        ma = max(arr[i], ma*arr[i]);
-        mi = min(arr[i], mi*arr[i]);
+        ma = max(long long(arr[i]), ma*arr[i]);
+        mi = min(long long(arr[i]), mi*arr[i]);
         ans = max(ans,ma);
     }
     
